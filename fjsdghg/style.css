@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #222;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e60012;
+  padding: 15px 40px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #e60012;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.models {
+  padding: 50px;
+  text-align: center;
+}
+
+.cars {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.car {
+  background: #fff;
+  padding: 15px;
+  width: 280px;
+  border-radius: 6px;
+}
+
+.car img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.car span {
+  display: block;
+  margin-top: 10px;
+  color: #e60012;
+  font-weight: bold;
+}
+
+.about, .contact {
+  padding: 40px;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #fff;
+  margin-top: 20px;
+}
